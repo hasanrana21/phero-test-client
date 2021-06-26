@@ -1,0 +1,18 @@
+.blogs-info{
+    width: 30%;
+    margin: 45px auto;
+    border: 2px solid #5bd7fd;
+    border-radius: 12px 12px 3px 3px;
+}
+.blogs-info img{
+    border: 7px solid #5bd7fd;
+    border-radius: 12px 12px 0 0;
+}
+.blog-content{
+    padding: 15px;
+}
+.blog-content h3{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

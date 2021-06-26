@@ -1,0 +1,29 @@
+.blog-card{
+    width: 20%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 0;
+    transition: .3s;
+    cursor: pointer;
+}
+.blog-card:hover{
+    border: 1px solid white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+.blog-card img{
+    width: 80%;
+    height: 160px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 15px;
+    letter-spacing: 2px;
+}
