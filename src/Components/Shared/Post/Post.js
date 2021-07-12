@@ -14,7 +14,7 @@ const Post = () => {
             image: image,
         }
 
-        fetch('http://localhost:5050/postBlog', {
+        fetch('https://afternoon-springs-08165.herokuapp.com/postBlog', {
             method: 'POST',
             headers: {'Content-Type' : 'application/json'},
             body: JSON.stringify(postedData),
